@@ -62,6 +62,5 @@ export default class Slider {
         });
 
         this.showSlides(this.slideIndex);
-        this.showCard();
     }
 }
