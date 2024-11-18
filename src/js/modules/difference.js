@@ -21,7 +21,7 @@ export default class Difference {
         });
 
         this.newOfficer.querySelector('.plus').addEventListener('click', () => {
-            if(this.newCounter !== this.newCounter.length - 2) {
+            if(this.newCounter !== this.newItems.length - 2) {
                 this.newItems[this.newCounter].style.display = 'flex';
                 this.newCounter++;
             } else {
